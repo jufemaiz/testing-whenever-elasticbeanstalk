@@ -24,9 +24,9 @@ every 1.minute do
 end
 
 every 1.hour do
-  `touch log/$(date -u +"%Y%m%dT%H%M%SZ")`
+  command 'cd /var/app/current && touch log/$(date -u +"%Y%m%dT%H%M%SZ")'
 end
 
 every 1.hour, roles: [:leader] do
-  `touch log/leader-$(date -u +"%Y%m%dT%H%M%SZ")`
+  command 'cd /var/app/current && touch log/leader-$(date -u +"%Y%m%dT%H%M%SZ")'
 end
