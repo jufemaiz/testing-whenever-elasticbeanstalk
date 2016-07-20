@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jufemaiz/whenever-elasticbeanstalk.git
-  revision: 6fc999764e5951207c7d88eed4fef3fedf1811aa
+  revision: 8e7f4548416ce0752a18024ec7d25ed8b30a92e6
   branch: feature/aws-2.3
   specs:
     whenever-elasticbeanstalk (2.0.0.beta.0)
