@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jufemaiz/whenever-elasticbeanstalk.git
-  revision: 2182f4dcecd928081b3aaa7a4aa2023c36e9867e
+  revision: b7a26f5d75c797184e468f62c5012f07806487ff
   branch: feature/aws-2.3
   specs:
     whenever-elasticbeanstalk (2.0.0.beta.0)
@@ -48,12 +48,12 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.0.0)
-    aws-sdk (2.3.22)
-      aws-sdk-resources (= 2.3.22)
-    aws-sdk-core (2.3.22)
+    aws-sdk (2.4.0)
+      aws-sdk-resources (= 2.4.0)
+    aws-sdk-core (2.4.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.3.22)
-      aws-sdk-core (= 2.3.22)
+    aws-sdk-resources (2.4.0)
+      aws-sdk-core (= 2.4.0)
     builder (3.2.2)
     byebug (9.0.5)
     chronic (0.10.2)
@@ -75,7 +75,7 @@ GEM
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
-    jmespath (1.3.0)
+    jmespath (1.3.1)
     jquery-rails (4.1.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
