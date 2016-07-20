@@ -1,24 +1,17 @@
-# README
+# whenever-elasticbeanstalk-test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test Rails application for Whenever::Elasticbeanstalk
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+```
+bundle install
+```
 
-* System dependencies
+```
+eb init
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+eb deploy
+```
